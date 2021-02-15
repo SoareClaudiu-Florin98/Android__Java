@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularMijlocFix">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_denumire_obiectInventar"
+        android:layout_width="match_parent"
+        style="@style/navyText"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="140dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_denumire_obiectInventar"
+            android:layout_width="match_parent"
+            style="@style/navyText"
+            android:layout_height="wrap_content"
+            android:hint="@string/denumire"
+            android:inputType="text"
+            android:background="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_valoare_obiectInventar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/navyText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/til_denumire_obiectInventar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_valoare_obiectInventar"
+            android:layout_width="match_parent"
+            style="@style/navyText"
+            android:layout_height="wrap_content"
+            android:hint="@string/valoare"
+
+            android:inputType="numberDecimal"
+            android:background="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_data_obiectInventar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/navyText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/til_valoare_obiectInventar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_data_obiectInventar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/data_adaugare"
+            style="@style/navyText"
+            android:inputType="date"
+            android:background="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_saveobiectInventar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/til_data_obiectInventar"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

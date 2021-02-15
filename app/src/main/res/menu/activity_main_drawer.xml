@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_work_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_mij_fixe"
+            android:icon="@drawable/ic_baseline_drive_eta_24"
+            android:title="@string/mijloace_fixe" />
+        <item
+            android:id="@+id/nav_obiecte_inventar"
+            android:icon="@drawable/ic_baseline_construction_24"
+            android:title="@string/obiecte_de_inventar" />
+        <item
+            android:id="@+id/nav_rapoarte"
+            android:icon="@drawable/ic_baseline_pie_chart_24"
+            android:title="@string/rapoarte" />
+    </group>
+</menu>

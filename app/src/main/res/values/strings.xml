@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Proiect</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="inventar">Inventar</string>
+    <string name="inventarierea_obiectelor_fixe_echipamente">Inventariere mijloace fixe/obiecte de inventar</string>
+    <string name="show_options">Optiunea %1$s a fost apasata</string>
+    <string name="do_something">Info</string>
+    <string name="echipamente">Echipamente</string>
+    <string name="mijloace_fixe">Mijloace fixe</string>
+    <string name="obiecte_de_inventar">Obiecte de inventar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="denumire">Denumire</string>
+    <string name="data_adaugare">Data Adaugare</string>
+    <string name="valoare">Valoare</string>
+    <string name="invalid_date">Data este invalida</string>
+    <string name="invalid_value_mij_fix">Valoarea trebuie sa fie mai mare de 2500</string>
+    <string name="invalid_value_ob_inv">Valoarea trebuie sa fie intre 0 si 2500</string>
+    <string name="default_value">undefined</string>
+    <string name="MIJLOC_FIX_ADAUGAT">Mijloc fix adaugat</string>
+    <string name="valoare_adapter">Valoare: </string>
+    <string name="data_adaugare_adapter">Data Adaugare: </string>
+    <string name="lista_mijloace_fixe">Lista Mijloace Fixe</string>
+    <string name="adauga_mijloc_fix">Adauga Mijloc Fix</string>
+    <string name="lista_obiecte_inventar">Lista Obiecte Inventar</string>
+    <string name="home">Asset Admin</string>
+    <string name="categorie">Categorie</string>
+    <string name="cantitate">Cantitate</string>
+    <string name="cantitate_adapter">Cantitate: </string>
+    <string name="categorie_adapter">Categorie: </string>
+    <string name="save">SAVE</string>
+    <string name="rapoarte">Rapoarte</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="colorbar">Categorii</string>
+    <string name="grafice">Grafice</string>
+    <string name="numar_active">Numar Active</string>
+    <string name="mijloace_fixe_obiecte_inventar">Mijloace Fixe - Obiecte de inventar</string>
+    <string name="toast_info_menu">Grupa: 1086\nEchipa:\nOachkatzlschwoaf\nSirbu Madalin\nSoare Claudiu\nApp version: 2.021</string>
+
+</resources>

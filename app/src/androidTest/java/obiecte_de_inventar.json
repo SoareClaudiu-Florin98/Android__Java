@@ -1,0 +1,51 @@
+[
+  {
+    "denumire": "caramida",
+    "data_adaugare": "11/10/2019",
+    "valoare": "24.2",
+    "cantitate": "20",
+    "caracteristici": {
+      "culoare": "portocaliu",
+      "greutate": "200",
+      "vechime":"2",
+      "categorie": {
+        "nume_categorie": "materiale constructii",
+        "cod_categorie": "138",
+        "nr_el_categorie":"100"
+      }
+    }
+  },
+  {
+    "denumire": "sac de ciment",
+    "data_adaugare": "09/08/2020",
+    "valoare": "26.8",
+    "cantitate": "22",
+    "caracteristici": {
+      "culoare": "gri",
+      "greutate": "200",
+      "vechime":"2",
+      "categorie": {
+        "nume_categorie": "materiale constructii",
+        "cod_categorie": "138",
+        "nr_el_categorie":"100"
+      }
+    }
+  },
+  {
+    "denumire": "cutie",
+    "data_adaugare": "07/05/2021",
+    "valoare": "7.05",
+    "cantitate": "15",
+    "caracteristici": {
+      "culoare": "albastru",
+      "greutate": "20",
+      "vechime":"1",
+      "categorie": {
+        "nume_categorie": "diverse",
+        "cod_categorie": "111",
+        "nr_el_categorie":"90"
+      }
+    }
+  }
+
+]
